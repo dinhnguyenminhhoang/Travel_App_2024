@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     }),
     textBtn: (textColor) => ({
         color: textColor,
+        fontWeight: "medium",
         fontSize: SIZES.medium,
     }),
 });

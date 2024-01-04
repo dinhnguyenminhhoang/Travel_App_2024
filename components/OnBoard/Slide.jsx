@@ -3,6 +3,8 @@ import React from "react";
 import styles from "./slide.style";
 import { COLORS, SIZES } from "../../constants/theme";
 import ResuableText from "../Resuable/ResuableText";
+import ResuableBtn from "../Buttons/ResuableBtn";
+import HeightSpacer from "../Resuable/HeightSpacer";
 export default function Slide({ item }) {
     return (
         <View>
@@ -13,6 +15,16 @@ export default function Slide({ item }) {
                     size={SIZES.xLarge}
                     color={COLORS.white}
                     fontWeight={"bold"}
+                />
+                <HeightSpacer height={10} />
+                <ResuableBtn
+                    onPress={() => {}}
+                    text={"Let's go"}
+                    width={(SIZES.width - 50) / 2.2}
+                    bgColor={COLORS.red}
+                    borderColor={COLORS.red}
+                    borderWidth={0}
+                    textColor={COLORS.white}
                 />
             </View>
         </View>

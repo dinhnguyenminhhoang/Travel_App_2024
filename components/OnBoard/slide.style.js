@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
         position: "absolute",
         bottom: 0,
         marginBottom: 60,
+        marginHorizontal: 10,
     },
     stackText: {},
 });
