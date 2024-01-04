@@ -5,7 +5,9 @@ import { COLORS, SIZES } from "../../constants/theme";
 import ResuableText from "../Resuable/ResuableText";
 import ResuableBtn from "../Buttons/ResuableBtn";
 import HeightSpacer from "../Resuable/HeightSpacer";
+import { useNavigation } from "@react-navigation/native";
 export default function Slide({ item }) {
+    const navigation = useNavigation();
     return (
         <View>
             <Image source={item.image} style={styles.image} />
@@ -18,7 +20,7 @@ export default function Slide({ item }) {
                 />
                 <HeightSpacer height={20} />
                 <ResuableBtn
-                    onPress={() => {}}
+                    onPress={() => navigation.navigate("Bottom")}
                     text={"Let's go"}
                     width={(SIZES.width - 50) / 2.2}
                     bgColor={COLORS.red}

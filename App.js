@@ -2,6 +2,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { StyleSheet } from "react-native";
 import { OnBoarding } from "./screens";
+import ButtonTabNavigation from "./navigation/ButtonTabNavigation";
 const Stack = createNativeStackNavigator();
 export default function App() {
     return (
@@ -10,6 +11,11 @@ export default function App() {
                 <Stack.Screen
                     name="onBoarding"
                     component={OnBoarding}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="Bottom"
+                    component={ButtonTabNavigation}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>
