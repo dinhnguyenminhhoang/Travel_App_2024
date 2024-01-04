@@ -26,6 +26,10 @@ const styles = StyleSheet.create({
         backgroundColor: bgColor,
         borderColor: borderColor,
         borderWidth: borderWidth,
+        alignItems: "center",
+        justifyContent: "center",
+        height: 45,
+        borderRadius: SIZES.small,
     }),
     textBtn: (textColor) => ({
         color: textColor,
