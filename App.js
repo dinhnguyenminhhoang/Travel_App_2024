@@ -5,6 +5,7 @@ import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import {
     CountryDetail,
+    HotelList,
     HotelsDetail,
     OnBoarding,
     PlaceDetail,
@@ -63,6 +64,11 @@ export default function App() {
                 <Stack.Screen
                     name="HotelsDetail"
                     component={HotelsDetail}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="HotelList"
+                    component={HotelList}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>

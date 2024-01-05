@@ -1,17 +1,10 @@
-import {
-    FlatList,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
-} from "react-native";
-import React from "react";
-import HeightSpacer from "../Resuable/HeightSpacer";
-import ResuableText from "../Resuable/ResuableText";
+import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
+import React from "react";
+import { FlatList, StyleSheet, TouchableOpacity, View } from "react-native";
 import { COLORS, SIZES } from "../../constants/theme";
 import resuable from "../Resuable/Resuable.style";
-import { Feather } from "@expo/vector-icons";
+import ResuableText from "../Resuable/ResuableText";
 import HotelsCard from "../Tiles/Hotels/HotelsCard";
 
 export default function BestHotels() {
@@ -121,7 +114,7 @@ export default function BestHotels() {
                     fontFamily={"homeFont"}
                 />
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("Recommendated")}
+                    onPress={() => navigation.navigate("HotelList")}
                 >
                     <Feather name="list" size={20} />
                 </TouchableOpacity>

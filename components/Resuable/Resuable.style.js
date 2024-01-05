@@ -4,6 +4,8 @@ const resuable = StyleSheet.create({
     container: {
         flex: 1,
         marginHorizontal: 20,
+    },
+    safeView: {
         paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     },
     rowWithSpace: (justifyContent, alignItems) => ({

@@ -11,6 +11,7 @@ import ResuableTile from "./Resuable/ResuableTile";
 import Rating from "./Resuable/Rating";
 import BestHotels from "./Home/BestHotels";
 import HotelsCard from "./Tiles/Hotels/HotelsCard";
+import AppBar from "./Resuable/AppBar";
 export {
     NetWorkinImage,
     Slide,
@@ -25,4 +26,5 @@ export {
     Rating,
     BestHotels,
     HotelsCard,
+    AppBar,
 };
