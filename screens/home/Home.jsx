@@ -1,7 +1,12 @@
 import React from "react";
 import { SafeAreaView, TouchableOpacity, View } from "react-native";
 import resuable from "../../components/Resuable/Resuable.style";
-import { HeightSpacer, Places, ResuableText } from "../../components";
+import {
+    HeightSpacer,
+    Places,
+    RecommenDation,
+    ResuableText,
+} from "../../components";
 import { COLORS, SIZES } from "../../constants/theme";
 import { AntDesign } from "@expo/vector-icons";
 import styles from "./home.styles";
@@ -30,8 +35,11 @@ export default function Home({ navigation }) {
                     color={COLORS.black}
                     fontWeight={"medium"}
                     fontFamily={"homeFont"}
+                    textAlign="left"
                 />
                 <Places />
+                <HeightSpacer height={16} />
+                <RecommenDation />
             </View>
         </SafeAreaView>
     );

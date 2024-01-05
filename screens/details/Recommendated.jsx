@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-export default function Detail() {
+export default function Recommendated() {
     return (
         <View>
-            <Text>Detail</Text>
+            <Text>Recommendated</Text>
         </View>
     );
 }

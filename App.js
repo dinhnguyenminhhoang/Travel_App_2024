@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { StyleSheet, Text, View } from "react-native";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
-import { CountryDetail, OnBoarding, Search } from "./screens";
+import { CountryDetail, OnBoarding, Recommendated, Search } from "./screens";
 import ButtonTabNavigation from "./navigation/ButtonTabNavigation";
 import { useCallback } from "react";
 const Stack = createNativeStackNavigator();
@@ -41,6 +41,11 @@ export default function App() {
                 <Stack.Screen
                     name="CountryDetail"
                     component={CountryDetail}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="Recommendated"
+                    component={Recommendated}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>
