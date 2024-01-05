@@ -18,7 +18,7 @@ export default function Slide({ item }) {
                     color={COLORS.white}
                     fontWeight={"bold"}
                 />
-                <HeightSpacer height={20} />
+                <HeightSpacer height={18} />
                 <ResuableBtn
                     onPress={() => navigation.navigate("Bottom")}
                     text={"Let's go"}

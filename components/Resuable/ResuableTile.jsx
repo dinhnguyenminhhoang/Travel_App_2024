@@ -28,7 +28,7 @@ export default function ResuableTile({ item, onPress }) {
                         fontFamily={"mRegular"}
                         textAlign="left"
                     />
-                    <HeightSpacer height={8} />
+                    <HeightSpacer height={6} />
                     <ResuableText
                         text={item.location}
                         size={14}
@@ -37,7 +37,7 @@ export default function ResuableTile({ item, onPress }) {
                         fontFamily={"mRegular"}
                         textAlign="left"
                     />
-                    <HeightSpacer height={8} />
+                    <HeightSpacer height={6} />
                     <View style={resuable.rowWithSpace("flex-start")}>
                         <Rating rating={item.rating} />
                         <WidthSpacer width={6} />

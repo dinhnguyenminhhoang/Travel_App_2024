@@ -6,20 +6,30 @@ export default function NetWorkinImage({
     width,
     height,
     radiusButtonIOS,
+    borderWidth,
+    borderColor,
 }) {
     return (
         <Image
             source={{ uri: source }}
-            style={styles.image(width, height, radiusButtonIOS)}
+            style={styles.image(
+                width,
+                height,
+                radiusButtonIOS,
+                borderWidth,
+                borderColor
+            )}
         />
     );
 }
 
 const styles = StyleSheet.create({
-    image: (width, height, radiusButtonIOS) => ({
+    image: (width, height, radiusButtonIOS, borderWidth, borderColor) => ({
         width,
         height,
         borderRadius: radiusButtonIOS,
         resizeMode: "cover",
+        borderWidth: borderWidth,
+        borderColor: borderColor,
     }),
 });

@@ -1,7 +1,8 @@
 import React from "react";
-import { SafeAreaView, TouchableOpacity, View } from "react-native";
+import { SafeAreaView, ScrollView, TouchableOpacity, View } from "react-native";
 import resuable from "../../components/Resuable/Resuable.style";
 import {
+    BestHotels,
     HeightSpacer,
     Places,
     RecommenDation,
@@ -28,7 +29,7 @@ export default function Home({ navigation }) {
                         <AntDesign name="search1" size={26} />
                     </TouchableOpacity>
                 </View>
-                <HeightSpacer height={SIZES.xLarge} />
+                <HeightSpacer height={8} />
                 <ResuableText
                     text="Places"
                     size={SIZES.large}
@@ -38,8 +39,9 @@ export default function Home({ navigation }) {
                     textAlign="left"
                 />
                 <Places />
-                <HeightSpacer height={16} />
                 <RecommenDation />
+                <HeightSpacer height={12} />
+                <BestHotels />
             </View>
         </SafeAreaView>
     );

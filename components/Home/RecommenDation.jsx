@@ -113,7 +113,7 @@ export default function RecommenDation() {
 
     return (
         <View style={styles.container}>
-            <View style={[resuable.rowWithSpace(), { paddingBottom: 20 }]}>
+            <View style={[resuable.rowWithSpace(), { paddingBottom: 4 }]}>
                 <ResuableText
                     text="Recomendations"
                     size={SIZES.large}
@@ -134,7 +134,12 @@ export default function RecommenDation() {
                 contentContainerStyle={{ columnGap: SIZES.medium }}
                 showsHorizontalScrollIndicator={false}
                 renderItem={({ item, index }) => (
-                    <ResuableTile item={item} onPress={() => {}} />
+                    <ResuableTile
+                        item={item}
+                        onPress={() => {
+                            navigation.navigate("PlaceDetail", item._id);
+                        }}
+                    />
                 )}
             />
         </View>

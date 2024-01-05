@@ -100,7 +100,7 @@ export default function Places() {
 
     return (
         <View>
-            <HeightSpacer height={20} />
+            <HeightSpacer height={12} />
             <VirtualizedList
                 data={countries}
                 horizontal

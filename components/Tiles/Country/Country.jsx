@@ -19,7 +19,7 @@ export default function Country({ item }) {
                     radiusButtonIOS={12}
                     source={item.imageUrl}
                 />
-                <HeightSpacer height={10} />
+                <HeightSpacer height={8} />
                 <ResuableText
                     text={item.country}
                     size={SIZES.medium}
