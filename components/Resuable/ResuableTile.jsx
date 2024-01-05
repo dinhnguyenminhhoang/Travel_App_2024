@@ -21,7 +21,7 @@ export default function ResuableTile({ item, onPress }) {
                 <WidthSpacer width={16} />
                 <View>
                     <ResuableText
-                        text={item.title}
+                        text={item.title ? item.title : item.name}
                         size={SIZES.medium}
                         color={COLORS.black}
                         fontWeight={"medium"}
