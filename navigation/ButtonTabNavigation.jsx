@@ -33,7 +33,7 @@ export default function ButtonTabNavigation() {
                     headerShown: false,
                     tabBarIcon: ({ focused }) => (
                         <Ionicons
-                            name={focused ? "grid" : "filter-outline"}
+                            name={focused ? "grid" : "grid-outline"}
                             color={focused ? COLORS.red : COLORS.gray}
                             size={26}
                         />

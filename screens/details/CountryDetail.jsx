@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-export default function Home() {
+export default function CountryDetail() {
     return (
         <View>
-            <Text>Home</Text>
+            <Text>CountryDetail</Text>
         </View>
     );
 }
