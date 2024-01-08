@@ -14,7 +14,12 @@ import HotelsCard from "./Tiles/Hotels/HotelsCard";
 import AppBar from "./Resuable/AppBar";
 import DescriptionText from "./Resuable/DescriptionText";
 import PopularList from "./Country/PopularList";
+import HoteMap from "./Hotel/HoteMap";
+import ReviewList from "./Hotel/ReviewList";
+import ReviewTile from "./Tiles/Review/ReviewTile";
 export {
+    ReviewList,
+    ReviewTile,
     NetWorkinImage,
     Slide,
     Country,
@@ -31,4 +36,5 @@ export {
     AppBar,
     DescriptionText,
     PopularList,
+    HoteMap,
 };

@@ -12,6 +12,7 @@ import {
     PlaceDetail,
     Recommendated,
     Search,
+    SelectRoom,
 } from "./screens";
 import ButtonTabNavigation from "./navigation/ButtonTabNavigation";
 import { useCallback } from "react";
@@ -75,6 +76,11 @@ export default function App() {
                 <Stack.Screen
                     name="HotelsSearch"
                     component={HotelsSearch}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="SelectRoom"
+                    component={SelectRoom}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>
