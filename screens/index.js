@@ -11,7 +11,15 @@ import HotelsDetail from "./details/HotelsDetail";
 import HotelList from "./details/HotelList";
 import HotelsSearch from "./search/HotelsSearch";
 import SelectRoom from "./details/SelectRoom";
+import TopInfo from "./top/TopInfo";
+import TopTrips from "./top/TopTrips";
+import TopBookings from "./top/TopBookings";
+import Top from "./top/Top";
+import Payment from "./profile/Payment";
+import Settings from "./Settings/Settings";
 export {
+    Payment,
+    Settings,
     Recommendated,
     OnBoarding,
     Home,
@@ -25,4 +33,8 @@ export {
     HotelList,
     HotelsSearch,
     SelectRoom,
+    TopInfo,
+    TopBookings,
+    Top,
+    TopTrips,
 };

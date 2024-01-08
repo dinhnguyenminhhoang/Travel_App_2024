@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Chat, Home, Location, Profile } from "../screens";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS } from "../constants/theme";
+import TopTab from "./TopTab";
 const Tab = createBottomTabNavigator();
 const tabBarStyles = {
     padding: 20,
@@ -78,7 +79,7 @@ export default function ButtonTabNavigation() {
             />
             <Tab.Screen
                 name="Profile"
-                component={Profile}
+                component={TopTab}
                 options={{
                     tabBarStyle: tabBarStyles,
                     tabBarShowLabel: false,

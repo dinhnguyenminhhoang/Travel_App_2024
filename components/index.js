@@ -17,7 +17,9 @@ import PopularList from "./Country/PopularList";
 import HoteMap from "./Hotel/HoteMap";
 import ReviewList from "./Hotel/ReviewList";
 import ReviewTile from "./Tiles/Review/ReviewTile";
+import ProfileTile from "./Resuable/ProfileTile";
 export {
+    ProfileTile,
     ReviewList,
     ReviewTile,
     NetWorkinImage,

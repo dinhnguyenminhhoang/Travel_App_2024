@@ -9,10 +9,12 @@ import {
     HotelsDetail,
     HotelsSearch,
     OnBoarding,
+    Payment,
     PlaceDetail,
     Recommendated,
     Search,
     SelectRoom,
+    Settings,
 } from "./screens";
 import ButtonTabNavigation from "./navigation/ButtonTabNavigation";
 import { useCallback } from "react";
@@ -81,6 +83,16 @@ export default function App() {
                 <Stack.Screen
                     name="SelectRoom"
                     component={SelectRoom}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="Payment"
+                    component={Payment}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="Settings"
+                    component={Settings}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>

@@ -42,7 +42,7 @@ export default function ResuableTile({ item, onPress }) {
                         <Rating rating={item.rating} />
                         <WidthSpacer width={6} />
                         <ResuableText
-                            text={` (${item.review}) `}
+                            text={` (${item.review || item.reviews}) `}
                             size={14}
                             color={COLORS.gray}
                             fontWeight={"medium"}
