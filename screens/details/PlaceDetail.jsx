@@ -126,7 +126,7 @@ export default function PlaceDetail({ navigation }) {
                             borderWidth={0}
                             textColor={COLORS.white}
                         />
-                        <HeightSpacer height={50} />
+                        <HeightSpacer height={40} />
                     </View>
                 </View>
             </ScrollView>
