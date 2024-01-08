@@ -17,7 +17,11 @@ import TopBookings from "./top/TopBookings";
 import Top from "./top/Top";
 import Payment from "./profile/Payment";
 import Settings from "./Settings/Settings";
+import Failed from "./booking/Failed";
+import Successfull from "./booking/Successfull";
 export {
+    Failed,
+    Successfull,
     Payment,
     Settings,
     Recommendated,

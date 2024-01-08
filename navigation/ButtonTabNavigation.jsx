@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Chat, Home, Location, Profile } from "../screens";
+import { Chat, Home, Location, Profile, Successfull } from "../screens";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS } from "../constants/theme";
 import TopTab from "./TopTab";
@@ -59,7 +59,7 @@ export default function ButtonTabNavigation() {
             />
             <Tab.Screen
                 name="Chat"
-                component={Chat}
+                component={Successfull}
                 options={{
                     tabBarStyle: tabBarStyles,
                     tabBarShowLabel: false,

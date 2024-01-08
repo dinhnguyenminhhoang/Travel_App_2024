@@ -19,6 +19,7 @@ import ReviewList from "./Hotel/ReviewList";
 import ReviewTile from "./Tiles/Review/ReviewTile";
 import ProfileTile from "./Resuable/ProfileTile";
 import SettingTile from "./Settings/SettingTile";
+import AssetImage from "./Resuable/AssetImage";
 export {
     ProfileTile,
     ReviewList,
@@ -41,4 +42,5 @@ export {
     PopularList,
     HoteMap,
     SettingTile,
+    AssetImage,
 };
