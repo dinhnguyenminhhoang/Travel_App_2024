@@ -13,7 +13,7 @@ import { AntDesign } from "@expo/vector-icons";
 import styles from "./home.styles";
 export default function Home({ navigation }) {
     return (
-        <SafeAreaView style={resuable.container}>
+        <SafeAreaView style={[resuable.container, resuable.safeView]}>
             <View>
                 <View style={resuable.rowWithSpace()}>
                     <ResuableText
