@@ -6,6 +6,7 @@ import { COLORS, SIZES } from "../../constants/theme";
 import resuable from "../Resuable/Resuable.style";
 import ResuableText from "../Resuable/ResuableText";
 import HotelsCard from "../Tiles/Hotels/HotelsCard";
+import HeightSpacer from "../Resuable/HeightSpacer";
 
 export default function BestHotels() {
     const navigation = useNavigation();
@@ -119,6 +120,8 @@ export default function BestHotels() {
                     <Feather name="list" size={20} />
                 </TouchableOpacity>
             </View>
+            <HeightSpacer height={8} />
+
             <FlatList
                 data={bestHotels}
                 horizontal

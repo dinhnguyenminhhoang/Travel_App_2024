@@ -12,9 +12,12 @@ export default function AppBar({
     icon,
     onPress,
     onPress1,
+    top,
+    left,
+    right,
 }) {
     return (
-        <View style={styles.overlay}>
+        <View style={styles.overlay(top, left, right)}>
             <View style={resuable.rowWithSpace("space-between")}>
                 <TouchableOpacity style={styles.box(color)} onPress={onPress}>
                     <AntDesign name="left" size={26} />
@@ -37,13 +40,13 @@ export default function AppBar({
 }
 
 const styles = StyleSheet.create({
-    overlay: {
+    overlay: (top, left, right) => ({
         position: "absolute",
-        top: 10,
-        left: 0,
-        right: 0,
+        top: top || 10,
+        left: left || 0,
+        right: right || 0,
         justifyContent: "center",
-    },
+    }),
     box: (color) => ({
         backgroundColor: color || "white",
         width: 30,

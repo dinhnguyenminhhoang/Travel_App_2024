@@ -40,7 +40,7 @@ export default function Home({ navigation }) {
                 />
                 <Places />
                 <RecommenDation />
-                <HeightSpacer height={12} />
+                <HeightSpacer height={20} />
                 <BestHotels />
             </View>
         </SafeAreaView>

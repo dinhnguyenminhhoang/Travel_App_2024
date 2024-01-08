@@ -12,6 +12,7 @@ import ResuableText from "../Resuable/ResuableText";
 import { Feather } from "@expo/vector-icons";
 import { COLORS, SIZES } from "../../constants/theme";
 import ResuableTile from "../Resuable/ResuableTile";
+import HeightSpacer from "../Resuable/HeightSpacer";
 
 export default function RecommenDation() {
     const navigation = useNavigation();
@@ -127,6 +128,7 @@ export default function RecommenDation() {
                     <Feather name="list" size={20} />
                 </TouchableOpacity>
             </View>
+            <HeightSpacer height={8} />
             <FlatList
                 data={recommendations}
                 keyExtractor={(item) => item._id.toString()}

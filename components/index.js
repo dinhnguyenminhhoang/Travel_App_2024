@@ -12,6 +12,8 @@ import Rating from "./Resuable/Rating";
 import BestHotels from "./Home/BestHotels";
 import HotelsCard from "./Tiles/Hotels/HotelsCard";
 import AppBar from "./Resuable/AppBar";
+import DescriptionText from "./Resuable/DescriptionText";
+import PopularList from "./Country/PopularList";
 export {
     NetWorkinImage,
     Slide,
@@ -27,4 +29,6 @@ export {
     BestHotels,
     HotelsCard,
     AppBar,
+    DescriptionText,
+    PopularList,
 };
