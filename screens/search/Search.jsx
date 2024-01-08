@@ -76,7 +76,7 @@ export default function Search({ navigation }) {
                         style={styles.input}
                         value={searchKey}
                         onChange={setSearchKey}
-                        placeholder="Where fo you want to visit ?"
+                        placeholder="Where do you want to visit ?"
                     />
                 </View>
                 <TouchableOpacity style={styles.searchBtn}>

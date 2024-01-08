@@ -117,7 +117,7 @@ export default function PlaceDetail({ navigation }) {
                         <PopularList data={place.popular} />
                         <ResuableBtn
                             onPress={() =>
-                                navigation.navigate("HotelSearch", place._id)
+                                navigation.navigate("HotelsSearch", place._id)
                             }
                             text={"Find Best Hotels"}
                             width={SIZES.width - 40}
