@@ -18,6 +18,7 @@ import HoteMap from "./Hotel/HoteMap";
 import ReviewList from "./Hotel/ReviewList";
 import ReviewTile from "./Tiles/Review/ReviewTile";
 import ProfileTile from "./Resuable/ProfileTile";
+import SettingTile from "./Settings/SettingTile";
 export {
     ProfileTile,
     ReviewList,
@@ -39,4 +40,5 @@ export {
     DescriptionText,
     PopularList,
     HoteMap,
+    SettingTile,
 };
