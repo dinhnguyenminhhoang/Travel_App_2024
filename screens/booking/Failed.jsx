@@ -24,7 +24,7 @@ const Failed = () => {
     };
     return (
         <View>
-            <View style={{ marginTop: "40%" }}>
+            <View style={{ marginTop: "20%" }}>
                 <AssetImage
                     source={require("../../assets/images/checkFailed.jpg")}
                     width={"100%"}

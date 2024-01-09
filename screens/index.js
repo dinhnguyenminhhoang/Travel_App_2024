@@ -19,6 +19,8 @@ import Payment from "./profile/Payment";
 import Settings from "./Settings/Settings";
 import Failed from "./booking/Failed";
 import Successfull from "./booking/Successfull";
+import Registion from "./authenication/Registion";
+import Singnin from "./authenication/Singnin";
 export {
     Failed,
     Successfull,
@@ -41,4 +43,6 @@ export {
     TopBookings,
     Top,
     TopTrips,
+    Registion,
+    Singnin,
 };

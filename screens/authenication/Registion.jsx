@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const AuthTopTav = () => {
+const Registion = () => {
     return (
         <View>
-            <Text>AuthTopTav</Text>
+            <Text>Registion</Text>
         </View>
     );
 };
 
-export default AuthTopTav;
+export default Registion;
 
 const styles = StyleSheet.create({});
