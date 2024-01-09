@@ -19,8 +19,8 @@ const AuthTopTab = () => {
                 />
                 <View style={{ height: 600 }}>
                     <Tab.Navigator>
-                        <Tab.Screen component={Registion} name="Registion" />
                         <Tab.Screen component={Singnin} name="Singnin" />
+                        <Tab.Screen component={Registion} name="Registion" />
                     </Tab.Navigator>
                 </View>
             </ScrollView>
