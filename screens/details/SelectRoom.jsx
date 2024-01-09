@@ -114,6 +114,7 @@ const SelectRoom = ({ navigation }) => {
                     left={20}
                     title={"Select Room"}
                     color={COLORS.white}
+                    color1={"transparent"}
                     onPress={() => navigation.goBack()}
                 />
             </View>
@@ -137,7 +138,7 @@ const SelectRoom = ({ navigation }) => {
                                     onPress={() =>
                                         navigation.navigate(
                                             "SelectedRoom",
-                                            item._id
+                                            item
                                         )
                                     }
                                 />
@@ -149,7 +150,7 @@ const SelectRoom = ({ navigation }) => {
                                         onPress={() =>
                                             navigation.navigate(
                                                 "SelectedRoom",
-                                                item._id
+                                                item
                                             )
                                         }
                                         text={"Select room"}

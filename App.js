@@ -16,6 +16,7 @@ import {
     SelectRoom,
     SelectedRoom,
     Settings,
+    Successfull,
 } from "./screens";
 import ButtonTabNavigation from "./navigation/ButtonTabNavigation";
 import { useCallback } from "react";
@@ -99,6 +100,11 @@ export default function App() {
                 <Stack.Screen
                     name="SelectedRoom"
                     component={SelectedRoom}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="Successfull"
+                    component={Successfull}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>

@@ -9,19 +9,12 @@ import {
 } from "../../components";
 import { COLORS, SIZES, TEXT } from "../../constants/theme";
 import resuable from "../../components/Resuable/Resuable.style";
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation, useRoute } from "@react-navigation/native";
 
 const Successfull = () => {
     const navigation = useNavigation();
-    const hotel = {
-        _id: "102",
-        name: "Elegant Plaza Hotel",
-        imageUrl: "https://source.unsplash.com/featured/?hotel,elegant",
-        rating: 4.8,
-        price: "$250/night",
-        location: "Paris, France",
-        review: "240 Reviews",
-    };
+    const router = useRoute();
+    const item = router.params;
     return (
         <View>
             <View style={{ marginTop: "40%" }}>
@@ -56,7 +49,7 @@ const Successfull = () => {
                         textAlign="left"
                     />
                     <HeightSpacer height={20} />
-                    <ResuableTile item={hotel} />
+                    <ResuableTile item={item} />
                     <HeightSpacer height={40} />
                     <ResuableBtn
                         onPress={() => navigation.navigate("Bottom")}

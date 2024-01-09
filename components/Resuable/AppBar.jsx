@@ -28,6 +28,7 @@ export default function AppBar({
                     color={COLORS.black}
                     fontFamily={"mRegular"}
                 />
+
                 <TouchableOpacity
                     style={styles.box1(color1)}
                     onPress={onPress1}

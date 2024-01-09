@@ -20,6 +20,7 @@ import ReviewTile from "./Tiles/Review/ReviewTile";
 import ProfileTile from "./Resuable/ProfileTile";
 import SettingTile from "./Settings/SettingTile";
 import AssetImage from "./Resuable/AssetImage";
+import Counter from "./Resuable/Counter";
 export {
     ProfileTile,
     ReviewList,
@@ -43,4 +44,5 @@ export {
     HoteMap,
     SettingTile,
     AssetImage,
+    Counter,
 };
