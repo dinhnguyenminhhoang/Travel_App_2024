@@ -21,6 +21,7 @@ import Failed from "./booking/Failed";
 import Successfull from "./booking/Successfull";
 import Registion from "./authenication/Registion";
 import Singnin from "./authenication/Singnin";
+import SelectedRoom from "./details/SelectedRoom";
 export {
     Failed,
     Successfull,
@@ -45,4 +46,5 @@ export {
     TopTrips,
     Registion,
     Singnin,
+    SelectedRoom,
 };

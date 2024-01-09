@@ -14,6 +14,7 @@ import {
     Recommendated,
     Search,
     SelectRoom,
+    SelectedRoom,
     Settings,
 } from "./screens";
 import ButtonTabNavigation from "./navigation/ButtonTabNavigation";
@@ -93,6 +94,11 @@ export default function App() {
                 <Stack.Screen
                     name="Settings"
                     component={Settings}
+                    options={{ headerShown: false }}
+                />
+                <Stack.Screen
+                    name="SelectedRoom"
+                    component={SelectedRoom}
                     options={{ headerShown: false }}
                 />
             </Stack.Navigator>
