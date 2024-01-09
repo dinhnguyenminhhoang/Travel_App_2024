@@ -132,7 +132,7 @@ const Singnin = () => {
                         <HeightSpacer height={20} />
                         <ResuableBtn
                             onPress={handleSubmit}
-                            text={"Done"}
+                            text={"SING IN"}
                             width={SIZES.width - 40}
                             bgColor={COLORS.green}
                             borderColor={COLORS.green}
